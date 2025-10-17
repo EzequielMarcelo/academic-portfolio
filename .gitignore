@@ -1,0 +1,97 @@
+# ==========================================
+# Quartus II / Intel FPGA Project
+# ==========================================
+
+# Diretórios de saída e cache
+db/
+incremental_db/
+simulation/
+output_files/
+greybox_tmp/
+tmp/
+temp/
+work/
+db_backup/
+recovery/
+debug/
+
+# Arquivos de compilação e logs
+*.rpt
+*.log
+*.smsg
+*.summary
+*.jdi
+*.qmsg
+*.qarinfo
+*.qws
+*.sld
+*.sta.rpt
+*.eqn
+*.done
+*.pin
+*.sdcold
+*.dpf
+*.qdf
+*.qip_summary
+*.vho
+*.vo
+*.vqm
+*.pof
+*.sof
+*.cdf
+*.jbc
+*.jam
+*.hex
+*.mif
+*.srec
+*.elf
+*.map
+*.obj
+*.lst
+
+# Arquivos de simulação gerados
+*.vcd
+*.vwf
+*.vho
+*.sdo
+*.wlf
+
+# Arquivos de backup e temporários
+*~
+*.bak
+*.tmp
+*.old
+*.bdf_backup.*
+*.bak.*
+*.autosave.*
+
+# Arquivos de projeto locais (configurações de IDE)
+*.qws
+*.ini
+*.dsw
+*.aps
+*.dsk
+*.qdf
+*.cfg
+
+# Outros artefatos que não precisam ir para o versionamento
+*.sof
+*.pof
+*.jic
+*.hexout
+*.asm.rpt
+*.fit.rpt
+*.sta.rpt
+*.tan.rpt
+*.fit.summary
+*.asm.summary
+
+# ==========================================
+# Fique apenas com:
+# ------------------------------------------
+# *.qpf (Quartus Project File)
+# *.qsf (Quartus Settings File)
+# *.bdf / *.v / *.vhd / *.vhdl (fontes HDL)
+# *.sdc (constraints)
+# *.qip (IP cores configurados)
+# ==========================================
